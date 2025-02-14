@@ -1,6 +1,11 @@
 body {
   font-family: "Montserrat", sans-serif;
-  background: url("background.jpg");
+    background-image: url('images/background.png'); /* Ganti dengan path gambarmu */
+    background-size: cover; /* Biar gambar memenuhi seluruh layar */
+    background-position: center; /* Posisikan di tengah */
+    background-repeat: no-repeat; /* Jangan ulangi gambar */
+    background-attachment: fixed; /* Biar gambar tetap di tempat saat di-scroll */
+  }
 }
 
 .card {
